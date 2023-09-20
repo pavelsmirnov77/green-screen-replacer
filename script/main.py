@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-bg_img = cv2.imread('background.jpg')
+bg_img = cv2.imread('content/background.jpg')
 
 height, width = bg_img.shape[0:2]
 
